@@ -14,7 +14,7 @@
     "repositories": [
         {
             "type": "vcs",  
-            "url": "https://github.com/johnreytanquinco/open_social"
+            "url": "https://github.com/hughestech/open_social"
         },
         {
             "type": "composer",
