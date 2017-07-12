@@ -31,19 +31,19 @@
     },
     "extra": {
         "installer-paths": {
-            "opensocial/core": [
+            "html/core": [
                 "drupal/core"
             ],
-            "opensocial/modules/{$name}": [
+            "html/modules/{$name}": [
                 "type:drupal-module"
             ],
-            "opensocial/profiles/contrib/social": [
+            "html/profiles/contrib/social": [
                 "type:drupal-module"
             ],
-            "opensocial/profiles/contrib/{$name}": [
+            "html/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "opensocial/themes/contrib/{$name}": [
+            "html/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
             "drush/contrib/{$name}": [
