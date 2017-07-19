@@ -31,19 +31,19 @@
     },
     "extra": {
         "installer-paths": {
-            "html/core": [
+            "docroot/core": [
                 "drupal/core"
             ],
-            "html/modules/{$name}": [
+            "docroot/modules/{$name}": [
                 "type:drupal-module"
             ],
-            "html/profiles/contrib/social": [
+            "docroot/profiles/contrib/social": [
                 "type:drupal-module"
             ],
-            "html/profiles/contrib/{$name}": [
+            "docroot/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "html/themes/contrib/{$name}": [
+            "docroot/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
             "drush/contrib/{$name}": [
