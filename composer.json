@@ -9,12 +9,20 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.0",
-        "hughestech/open_social": "dev-dev-master"
+        "hughestech/open_social": "dev-dev-master",
+        "doctrine/cache": "1.6.1",
+        "doctrine/collections": "1.4.0",
+        "doctrine/common": "2.7.2",
+        "doctrine/inflector": "1.1.0"
     },
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "scripts": {
@@ -26,6 +34,10 @@
       ]
     },
     "extra": {
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "installer-paths": {
             "html/core": [
                 "drupal/core"
@@ -41,6 +53,11 @@
             ],
             "html/themes/contrib/{$name}": [
                 "type:drupal-theme"
+            ],
+            "html/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
