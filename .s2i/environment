@@ -1,2 +1,2 @@
 TEST=Hello World
-DRUSH_CMDS==en -y bootstrap_patterns && drush cset system.theme default bootstrap_patterns -y
+DRUSH_CMDS=en -y bootstrap_patterns && drush cset system.theme default bootstrap_patterns -y
