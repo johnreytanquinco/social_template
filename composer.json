@@ -23,6 +23,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hughestech/open_social"
         }
     ],
     "scripts": {
