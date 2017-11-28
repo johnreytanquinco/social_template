@@ -1,0 +1,4 @@
+[submodule "html/themes/custom"]
+	path = html/themes/custom
+	url = git@gitlab.com:priceinsight/priceinsight-theme.git
+	branch = develop
