@@ -50,7 +50,7 @@
                 "type:drupal-module"
             ],
             "html/profiles/contrib/social": [
-                "type:drupal-module"
+                "hughestech/open_social"
             ],
             "html/profiles/contrib/{$name}": [
                 "type:drupal-profile"
