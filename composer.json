@@ -46,7 +46,7 @@
             "html/core": [
                 "drupal/core"
             ],
-            "html/modules/{$name}": [
+            "html/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
             "html/profiles/contrib/social": [
