@@ -46,11 +46,11 @@
             "html/core": [
                 "drupal/core"
             ],
-            "html/modules/contrib/{$name}": [
+            "html/modules/{$name}": [
                 "type:drupal-module"
             ],
             "html/profiles/contrib/social": [
-                "hughestech/open_social"
+                "type:drupal-module"
             ],
             "html/profiles/contrib/{$name}": [
                 "type:drupal-profile"
