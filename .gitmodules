@@ -1,7 +1,7 @@
 [submodule "html/themes/custom"]
 	path = html/themes/custom
 	url = git@gitlab.com:priceinsight/priceinsight-theme.git
-	branch = 32-cleanup-homepage
+	branch = 37-profile-component-is-broken
 [submodule "html/modules/custom"]
 	path = html/modules/custom
 	url = git@gitlab.com:priceinsight/web/priceinsight-features.git
